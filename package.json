@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-sports-api",
+  "version": "1.0.0",
+  "description": "creating a small sports API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmuwanguzi/mongoose-sports-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmuwanguzi/mongoose-sports-api/issues"
+  },
+  "homepage": "https://github.com/fmuwanguzi/mongoose-sports-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongoose": "^0.1.0",
+    "mongoose": "^5.11.8"
+  }
+}
