@@ -22,7 +22,7 @@ router.post('/', (req, res)=>{
 })
 
 router.put("/:id", (req, res)=> {
-    models.Player.update({name: req.params.id}, {$set: {team: "patriots"}})
+    models.Player.update({id: req.params.id}, {$set: {team: "patriots"}})
     .then((newPlayer)=> {
         res.status(200).json({ newPlayer })
     })
