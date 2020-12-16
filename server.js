@@ -11,7 +11,7 @@ app.get('/', (req, res)=>{
     res.send('---this is the root---')
 })
 
-
+app.use('/players', require('./controllers/playersController'))
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, ()=>{
